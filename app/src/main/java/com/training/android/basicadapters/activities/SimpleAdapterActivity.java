@@ -1,4 +1,4 @@
-package com.training.android.basicadapters.activity;
+package com.training.android.basicadapters.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
