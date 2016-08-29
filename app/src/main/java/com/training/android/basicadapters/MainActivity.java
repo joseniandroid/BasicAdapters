@@ -8,7 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.training.android.basicadapters.activity.SimpleAdapterActivity;
+import com.training.android.basicadapters.activities.CustomListActivity;
+import com.training.android.basicadapters.activities.SimpleAdapterActivity;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
@@ -17,7 +18,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "ListView with Custom Adapter"};
 
     private Class[] mClasses = {
-            SimpleAdapterActivity.class
+            SimpleAdapterActivity.class,
+            CustomListActivity.class
     };
 
     @Override
