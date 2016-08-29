@@ -32,6 +32,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.training.android.basicadapters.MainActivity"/>
         </activity>
+        <activity
+            android:name=".activities.CustomGridActivity"
+            android:label="@string/title_activity_custom_grid"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.training.android.basicadapters.MainActivity"/>
+        </activity>
     </application>
 
 </manifest>

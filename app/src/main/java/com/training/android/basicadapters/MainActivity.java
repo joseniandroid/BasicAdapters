@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.training.android.basicadapters.activities.CustomGridActivity;
 import com.training.android.basicadapters.activities.CustomListActivity;
 import com.training.android.basicadapters.activities.SimpleAdapterActivity;
 
@@ -15,11 +16,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private String[] mTopics = {
             "Simple Adapter",
-            "ListView with Custom Adapter"};
+            "ListView with Custom Adapter",
+            "GridView with Custom Adapter"};
 
     private Class[] mClasses = {
             SimpleAdapterActivity.class,
-            CustomListActivity.class
+            CustomListActivity.class,
+            CustomGridActivity.class
     };
 
     @Override

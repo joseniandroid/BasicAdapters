@@ -5,4 +5,5 @@
     <string name="add">Add</string>
     <string name="input_data_to_list">Please input data to add into the list.</string>
     <string name="title_activity_custom_list">Custom List Adapter</string>
+    <string name="title_activity_custom_grid">Custom Grid Adapter</string>
 </resources>
